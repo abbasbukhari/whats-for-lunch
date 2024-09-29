@@ -13,10 +13,11 @@
  * in minutes.
  */
 
-const whatToDoForLunch = function(hungry, availableTime) {
+const whatToDoForLunch = function (hungry, availableTime) {
   console.log("I don't know what to do!");
-}
-
+  console.log("hungry is", hungry);
+  console.log("availableTime is", availableTime);
+};
 
 /*
  * This is some test runner code that's simply calling our whatToDoForLunch function
